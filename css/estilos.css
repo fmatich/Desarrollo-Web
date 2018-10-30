@@ -1,0 +1,30 @@
+body {background-color: grey;}
+
+#Contenedor {font-family: helvetica;
+  font-size: 16px;}
+
+#Encabezado {
+  display: block;
+  margin: 0 auto;
+}
+
+img {
+  border-radius: 10px;
+  border: 0px solid black;
+}
+
+.itemindice {list-style-type: upper-roman;}
+.enlace {color: red;}
+
+a[href='educacion.html']{color: red;}
+
+* {
+  margin: 1vh 1vw;
+}
+h1 + h2 {
+  text-decoration: underline;
+}
+
+h3 ~ p {
+  text-align: justify;
+}
